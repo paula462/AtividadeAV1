@@ -1,0 +1,110 @@
+body{
+    background: #00365c;
+}
+
+.container{
+    background: #fff;
+    max-width: 400px;
+    margin: 5% auto;
+}
+
+.container .titulo{
+    padding: 5%;
+    font-size: 30px;
+    font-weight: bolder; 
+    font-family: Courier;
+    color: white;
+    background: #0091d0;
+    text-align: center;
+}
+
+.container .conteudo {
+    padding: 10%;   
+}
+
+.container .conteudo input {
+    padding: 6px;
+    font-size: 15px;
+    text-align: left;
+    border-radius: 5px;
+    border: 2px solid grey;
+    width: 30%;
+    margin: 10px 0px;
+}
+
+.container .conteudo select {
+    width: 100%;
+    font-family: 'Arial';
+    width: 30%;
+    padding: 2px 6px;
+    border-radius: 5px;
+    border: 2px solid grey;
+    background: #ffffff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container .conteudo button {
+    margin: 20px 0px;
+    width: 60%;
+    background: #003555;
+    padding: 8px;
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-family: Courier;
+    font-weight: bolder; 
+    cursor: pointer;
+}
+
+a {
+    background: #003555;
+    color: white;
+}
+
+/* tabela */
+table.tabela {
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  border: 2px solid #1B055D;
+  background-color: #6976FF;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.tabela td, table.tabela th {
+  border: 1px solid #003555;
+  padding: 3px 2px;
+}
+table.tabela tbody td {
+  font-size: 13px;
+  color: #171717;
+}
+table.tabela tr:nth-child(even) {
+  background: #ACC4F5;
+}
+table.tabela thead {
+  background: #003555;
+  border-bottom: 2px solid #1B055D;
+}
+table.tabela thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #FFFFFF;
+  text-align: center;
+  border-left: 2px solid #1B055D;
+}
+table.tabela thead th:first-child {
+  border-left: none;
+}
+
+table.tabela tfoot .links {
+  text-align: right;
+}
+table.tabela tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+
